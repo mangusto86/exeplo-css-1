@@ -97,6 +97,14 @@ main p {
     margin-right: auto;
     padding: 1.5em 0;
 }
+.container > p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px #000;
+    margin-right: .2ch;
+    line-height: 1;
+}
 
 strong {
     font-weight: bold;
